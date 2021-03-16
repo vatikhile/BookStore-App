@@ -1,0 +1,71 @@
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    flex-direction: row;
+    background-color: #adadad;
+  }
+  .mediaCard {
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    
+  }
+  .buttonSection {
+    display: flex;
+    justify-content: space-between;
+  }
+  .buttonSection > div {
+    font: normal normal medium 25px/33px Roboto;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: #0a0102;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+  }
+  /* .buttonSection mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+  } */
+  
+  .fields {
+    display: flex;
+    flex-direction: column;
+    padding-top: 28px;
+  }
+  .actionButton {
+    color: #1a73e8;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .loginSocial{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 20px 0px;
+  }
+  .loginSocial button:nth-child(1){
+      background-color: #4266B2;
+      color: white;
+      border-radius: 3px;
+      text-transform: capitalize;
+      padding: 5px 11px;
+  
+  }
+  .loginSocial button:nth-child(2){
+      border: 1px solid #E4E4E4;
+      border-radius: 3px;
+      text-transform: capitalize;
+      padding: 5px 22px;
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    .mainContent {
+    display: flex;
+    align-items:start;
+    }
+  }

@@ -1,0 +1,13 @@
+.Input {
+    width: 100%;
+    border:1px solid #E2E2E2;
+    border-radius: 2px;
+    margin-bottom: 7px;
+
+  }
+  .errorInput{
+    width: 100%;
+    border:1px solid red;
+    border-radius: 2px;
+    margin-bottom: 7px;
+  }

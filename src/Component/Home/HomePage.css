@@ -1,0 +1,124 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-content: center;
+  align-items: center;
+}
+
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  background-color: #a03037;
+
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  display: inline-block;
+  /* width: 100px;
+      max-width: 100px; */
+  /* flex-direction: row;
+      justify-content: space-evenly; */
+  width: 800px;
+  max-width: 800px;
+}
+.block > div:nth-child(1) {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title {
+  margin: 0px 50px 0px 20px;
+}
+.input {
+  background-color: white;
+  width: 347px;
+  padding: 0px 17px;
+  border-radius: 3px;
+}
+.rightIcons {
+  /* margin-right: 43px; */
+  float: right;
+}
+.rightIcons > div {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Menublock > div:nth-child(1) {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Menublock {
+  display: inline-block;
+  width: 800px;
+  max-width: 800px;
+}
+
+.menubar {
+  overflow: hidden;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.rightIconsmenu {
+  float: right;
+}
+
+.rightIconsmenu > div {
+  /* float:right; */
+  display: block;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+  .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: -webkit-fill-available;
+  }
+  .input {
+    /* width: 100px !important; */
+    display: none;
+  }
+  .rightIcons {
+    display: flex;
+    justify-content: center;
+  }
+}
